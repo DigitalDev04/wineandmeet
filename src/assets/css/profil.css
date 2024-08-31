@@ -1,0 +1,61 @@
+.profil {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	align-items: center;
+	height: 89vh;
+}
+
+.espace {
+	border-left: solid 1px darkgoldenrod;
+	border-right: solid 1px darkgoldenrod;
+	height: 35rem;
+	width: 50rem;
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	flex-direction: column;
+	margin-top: 5rem;
+}
+
+.ustensiles {
+	animation: myAnim 10s ease 0s 1 normal forwards;
+	height: 30rem;
+	width: 15rem;
+	margin: 2rem;
+}
+
+@keyframes myAnim {
+	0% {
+		opacity: 0;
+	}
+
+	100% {
+		opacity: 1;
+	}
+}
+
+@media screen and (max-width: 800px) {
+	.ustensiles {
+		height: 20rem;
+		width: 10rem;
+	}
+
+}
+
+@media screen and (max-width: 600px) {
+	.espace {
+		text-align: center;
+	}
+
+}
+
+@media screen and (max-width: 450px) {
+	.ustensiles {
+		display: none;
+	}
+
+	.espace {
+		width: 15rem;
+	}
+}

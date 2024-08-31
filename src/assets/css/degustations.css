@@ -1,0 +1,56 @@
+.calendartable {
+    width: 95vw;    
+    height: 70vh;    
+    border-collapse: collapse;
+}
+.calendartable td {
+    border: solid 1px darkgoldenrod;
+    padding: 10px;
+    vertical-align: top;
+    width: 14.29%;
+    height: 4rem;
+    position: relative;
+}
+
+.calendartable td > a {
+    position: absolute;
+    z-index: 5;
+    top: 0.1rem;
+    right: 0.1rem;
+    font-size: 1.2rem;
+    color: darkgoldenrod;
+}
+
+.weekday {
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+.day {
+    font-size: 1.3rem;
+}
+.othermonth .day {
+    opacity: 0.2;
+}
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.align {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+a:link {
+    color: darkgoldenrod;
+}
+td a:visited {
+    color: darkgoldenrod;
+}
+.red {
+    color: red;
+}
+.green {
+    color: green;
+}

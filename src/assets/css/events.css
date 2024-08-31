@@ -1,0 +1,31 @@
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 45vw;
+    min-width: 20rem;
+    height: 80vh;
+    border: solid 1px darkgoldenrod;
+    margin-top: 2rem;
+    position: relative;
+    text-align: center;
+}
+p {
+    font-size: 1.2rem;
+}
+
+.btn {
+    width: 75%;
+    display: flex;
+    justify-content: end;
+}
+
+.myButtons {
+    width: 2.5rem;
+}

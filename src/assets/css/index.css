@@ -1,0 +1,128 @@
+.accroche {
+    animation: myAnim 15s linear 0s 100 normal forwards;
+    display: flex;
+    align-items: center;
+    border-bottom: solid 1px darkgoldenrod;
+    height: 30rem;
+    padding-left: 10rem;
+    background-image: url(../img/daniel-vogel-PUDQGDlM_V8-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+@keyframes myAnim {
+    0% {
+        background-position: right center;
+        background-size: 100%;
+    }
+
+    100% {
+        background-position: right center;
+        background-size: 150%;
+    }
+}
+
+.dessin {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+    height: 50rem;
+}
+
+.dessinimg {
+    align-items: center;
+    justify-content: center;
+    width: 30rem;
+    height: 20rem;
+    border: solid 1px darkgoldenrod;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+.textdessin {
+    margin-top: 5rem;
+    color: white;
+    margin-top: 10rem;
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    border-color: darkgoldenrod;
+    width: 30rem;
+    height: 10rem;
+}
+
+.contour {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20rem;
+    width: 50rem;
+    border-top: solid 1px darkgoldenrod;
+    border-bottom: solid 1px rgb(184, 134, 11);
+    margin-left: 5rem;
+}
+
+.formetrait {
+    left: 49.8rem;
+    height: 20.3rem;
+    top: 10.77rem;
+}
+
+.conteneurgamme {
+    display: flex;
+    align-items: center;
+    height: 20rem;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.viande {
+    height: 70%;
+}
+
+@media screen and (max-width: 1200px) {
+    .dessin {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .dessinimg {
+        display: flex;
+        flex-direction: column;
+        margin-top: 1rem;
+    }
+}
+
+@media screen and (max-width: 600px) {
+
+    .accroche {
+        justify-content: center;
+        padding: 0;
+    }
+
+    .textdessin {
+        margin-top: 2rem;
+        height: 23rem;
+        width: 10rem;
+    }
+
+    .viande {
+        height: 30%;
+    }
+
+    .dessinimg {
+        align-items: center;
+        justify-content: center;
+        height: 15rem;
+        width: 15rem;
+    }
+
+    .contact {
+        height: 60%;
+        width: 100%;
+    }
+    .contour {
+        height: 12rem;
+    }
+}

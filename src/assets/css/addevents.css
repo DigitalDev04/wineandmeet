@@ -1,0 +1,50 @@
+.profilcreate {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 89vh;
+}
+
+.create {
+    border-left: solid 1px darkgoldenrod;
+    border-right: solid 1px darkgoldenrod;
+    height: 90vh;
+    width: 50rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+.grill {
+    animation: myAnim 10s ease 0s 1 normal forwards;
+    width: 15rem;
+    margin: 2rem;
+}
+
+small {
+    color: red;
+}
+.success {
+    color: green;
+}
+@keyframes myAnim {
+    0% {
+        transform: scale(0.5);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+@media screen and (max-width: 700px) {
+
+    .create {
+        flex-direction: column;
+        text-align: center;
+        width: 20rem;
+        height: 70vh;
+    }
+}
